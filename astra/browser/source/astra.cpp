@@ -115,7 +115,7 @@ namespace Astra {
                     settings->put_AreDevToolsEnabled(false);
 
                     Resize();
-                    m_ContentWebView->Navigate(L"localhost:3000");
+                    m_ContentWebView->Navigate(L"localhost:4000");
 
                     return S_OK;
                 }

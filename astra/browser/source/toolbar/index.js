@@ -36,4 +36,4 @@ editableSearchbar.addEventListener("keydown", (event) => {
   }
 });
 
-updateSearchbar("https://google.com/");
+updateSearchbar("https://astra.com/");

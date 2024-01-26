@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,nextjs,react,vercel
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,visualstudio,nextjs,react,vercel
 
+### CLion ###
+cmake-build-*/
+
 ### NextJS ###
 # dependencies
 node_modules
@@ -98,8 +101,6 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-x64/
-x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
