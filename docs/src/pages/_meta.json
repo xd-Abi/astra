@@ -1,0 +1,24 @@
+{
+  "-- Astra": {
+    "title": "ASTRA",
+    "type": "separator"
+  },
+  "start-here": "⭐ Start here",
+  "installation": "🛠 Installation",
+  "community": "🌱 Community",
+  "roadmap": "🛣 Roadmap",
+  "product": "🌋 Product",
+  "-- Docs": {
+    "title": "DOCUMENTATION",
+    "type": "separator"
+  },
+  "architecture": "💀 Architecture",
+  "deployment": "☀ Deployment",
+  "troubleshooting": "❓Troubleshooting",
+  "licenses": "🗝️ Licenses",
+  "-- Guides": {
+    "title": "GUIDES",
+    "type": "separator"
+  },
+  "software-contributions": "💎 Software Contributions"
+}

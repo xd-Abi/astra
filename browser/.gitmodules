@@ -1,3 +1,0 @@
-[submodule "vendor/will"]
-	path = vendor/will
-	url = https://github.com/microsoft/wil
