@@ -8,16 +8,12 @@ jobs:
 
     steps:
       - checkout
-
-      - run:
-          name: Navigate to astra/web folder
-          command: cd ./astra/web
       - run:
           name: Install dependencies
-          command: npm install
+          command: cd ./astra/web && npm install
       - run:
           name: Debug Current Directory
-          command: pwd
+          command: cd ./astra/web && pwd
       - run:
           name: Run Playwright tests
-          command: npx playwright test
+          command: cd ./astra/web && npx playwright test
