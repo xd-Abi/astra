@@ -13,7 +13,7 @@ export default function Home() {
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
-    router.push(`https://google.com/search?q=${searchInput}`);
+    router.push(`https://www.google.com/search?q=${searchInput}`);
   }
 
   return (
