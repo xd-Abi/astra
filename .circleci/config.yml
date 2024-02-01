@@ -11,15 +11,13 @@ jobs:
 
       - run:
           name: Navigate to astra/web folder
-          command: |
-            cd ./astra/web
-
+          command: cd ./astra/web
       - run:
           name: Install dependencies
-          command: |
-            npm install
-
+          command: npm install
       - run:
           name: Run Playwright tests
-          command: |
-            npx playwright test
+          command: npx playwright test
+      - run:
+          name: Debug Current Directory
+          command: pwd

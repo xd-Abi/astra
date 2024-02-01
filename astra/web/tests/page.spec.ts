@@ -5,9 +5,7 @@ test('redirecting to Google after searching', async ({ page }) => {
 
   const searchInputSelector = 'input';
   await page.fill(searchInputSelector, 'marwin');
-
   await page.press(searchInputSelector, 'Enter');
-
   await page.waitForLoadState('networkidle');
 
   const expectedURL = 'https://www.google.com/search?q=marwin';
