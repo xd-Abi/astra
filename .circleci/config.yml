@@ -16,4 +16,4 @@ jobs:
           command: cd ./astra/web && pwd
       - run:
           name: Run Playwright tests
-          command: cd ./astra/web && npx playwright test
+          command: cd ./astra/web && npm run test
