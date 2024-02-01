@@ -11,7 +11,8 @@ jobs:
 
       - run:
           name: Navigate to astra/web folder
-          command: cd astra/web
+          command: |
+            cd ./astra/web
 
       - run:
           name: Install dependencies
