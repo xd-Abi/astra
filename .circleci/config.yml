@@ -16,8 +16,8 @@ jobs:
           name: Install dependencies
           command: npm install
       - run:
-          name: Run Playwright tests
-          command: npx playwright test
-      - run:
           name: Debug Current Directory
           command: pwd
+      - run:
+          name: Run Playwright tests
+          command: npx playwright test
